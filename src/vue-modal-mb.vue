@@ -277,6 +277,20 @@
 </template>
 
 <script>
+  import {
+    VRow,
+    VCol,
+    VDialog,
+    VBtn,
+    VCheckbox,
+    VCard,
+    VCardTitle,
+    VCardText,
+    VCardActions,
+    VApp,
+    VMain,
+    VContainer,
+  } from "vuetify/lib";
   export default {
     data: () => ({
     }),

@@ -305,6 +305,21 @@
       }
     },
 
+    components: {
+      VRow,
+      VCol,
+      VDialog,
+      VBtn,
+      VCheckbox,
+      VCard,
+      VCardTitle,
+      VCardText,
+      VCardActions,
+      VApp,
+      VMain,
+      VContainer
+    },
+
     methods: {
       change($event) {
         this.$emit('change', $event)

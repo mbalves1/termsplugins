@@ -279,12 +279,15 @@
 <script>
   export default {
     data: () => ({
-      dialog: false
     }),
 
     props: {
       datamodel: {
         Type: Object
+      },
+      dialog: {
+        Type: Boolean,
+        default: false
       }
     },
 

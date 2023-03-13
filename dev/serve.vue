@@ -13,7 +13,7 @@ export default Vue.extend({
 <template>
   <v-app id="app">
     <v-main>
-      <vue-modal-mb />
+      <vue-modal-mb datamodel dialog/>
     </v-main>
   </v-app>
 </template>

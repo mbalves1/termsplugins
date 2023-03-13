@@ -292,6 +292,7 @@
     VContainer,
   } from "vuetify/lib";
   export default {
+    name: 'VueModalMb',
     data: () => ({
     }),
 

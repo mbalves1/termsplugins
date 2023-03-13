@@ -11,9 +11,7 @@ export default Vue.extend({
 </script>
 
 <template>
-  <v-app id="app">
-    <v-main>
-      <vue-modal-mb />
-    </v-main>
-  </v-app>
+  <div id="app">
+    <vue-modal-mb />
+  </div>
 </template>

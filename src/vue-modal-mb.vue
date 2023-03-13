@@ -137,14 +137,14 @@
                           12. Qual o foro aplicável caso o usuário queira realizar alguma reclamação?
                           Este Termo será regido pela legislação brasileira. Qualquer reclamação ou controvérsia com base neste Termo será dirimida exclusivamente pela Justiça Federal, na seção judiciária do domicílio do usuário, por previsão do artigo 109, §§ 1º, 2º e 3º, da Constituição Federal.</div>
                         </v-card-text>
-                        <v-card-action>
+                        <v-card-actions>
                           <v-btn
                             text
                             @click="dialog = false"
                           >
                             Reserve
                           </v-btn>
-                        </v-card-action>
+                        </v-card-actions>
                       </v-card>
                     </v-dialog>
 
@@ -291,21 +291,10 @@
     VMain,
     VContainer,
   } from "vuetify/lib";
+
   export default {
     name: 'VueModalMb',
-    data: () => ({
-    }),
-
-    props: {
-      datamodel: {
-        Type: Object
-      },
-      dialog: {
-        Type: Boolean,
-        default: false
-      }
-    },
-
+    
     components: {
       VRow,
       VCol,
@@ -319,6 +308,19 @@
       VApp,
       VMain,
       VContainer
+    },
+
+    data: () => ({
+    }),
+
+    props: {
+      datamodel: {
+        Type: Object
+      },
+      dialog: {
+        Type: Boolean,
+        default: false
+      }
     },
 
     methods: {
